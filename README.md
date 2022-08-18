@@ -1,6 +1,11 @@
 # mvn-code-maven-plugin
 
-1.下载
+1.下载 并进行编译安装
+<dependency>
+<groupId>org.hellotoy.infr</groupId>  
+<artifactId>toy-spring-mvc-infr</artifactId>  
+<version>1.0.0</version>
+</dependency>
 2.新建项目在pom.xml 添加如下依赖
 <plugin> 
         <groupId>org.hellotoy.maven.plugins</groupId>  
