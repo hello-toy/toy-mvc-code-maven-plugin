@@ -222,12 +222,6 @@ public abstract class AbstractGeneratorMojo extends AbstractMojo {
         if(xml.indexOf("spring-boot-starter-validation")==-1){
             ((Element)dependencies).add(addDependency("org.springframework.boot","spring-boot-starter-validation",rootEle.getNamespace()));
         }
-        if(xml.indexOf("mysql-connector-java")==-1){
-            ((Element)dependencies).add(addDependency("mysql","mysql-connector-java",rootEle.getNamespace()));
-        }
-        if(xml.indexOf("mybatis-plus-boot-starter")==-1){
-            ((Element)dependencies).add(addDependency("com.baomidou","mybatis-plus-boot-starter","3.4.1",rootEle.getNamespace()));
-        }
         if(xml.indexOf("druid-spring-boot-starter")==-1){
             ((Element)dependencies).add(addDependency("com.alibaba","druid-spring-boot-starter","1.1.10",rootEle.getNamespace()));
         }
